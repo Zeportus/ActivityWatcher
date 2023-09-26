@@ -4,6 +4,7 @@
 #include <sstream>
 #include <string>
 #include "base64.h"
+#include <fstream>
 #pragma warning(disable : 4996)
 inline int GetFilePointer(HANDLE FileHandle) {
     return SetFilePointer(FileHandle, 0, 0, FILE_CURRENT);
@@ -119,7 +120,7 @@ bool ScreenCapture(int x, int y, int width, int height, char* filename, HWND hwn
 int main() {
     LASTINPUTINFO lii;
     lii.cbSize = sizeof(LASTINPUTINFO);
-
+    
     char a[] = "c://dev/screen.bmp";
 
     DWORD bufSize = MAX_PATH;
@@ -137,6 +138,18 @@ int main() {
     DWORD size_user_name = sizeof(userName);
     GetUserNameA(userName, &size_user_name);
 
+    std::string line;
+
+    std::ifstream in("../../../../../server_ip.txt"); // окрываем файл для чтения
+    if (in.is_open())
+    {
+        std::getline(in, line);
+        std::cout << line << std::endl;
+    }
+    in.close();
+
+    std::string server_url = "http://" + line + ":8000/activity_report";
+
     while (true) {
         GetLastInputInfo(&lii);
         DWORD idleTime = GetTickCount() - lii.dwTime;
@@ -149,7 +162,7 @@ int main() {
         json << R"({"last_activity":)" << idleTime / 1000 << R"(, "domain":")" << domainNameBuf << R"(", "machine":")" << computerName << R"(", "username":")" << userName << R"(", "screenshot":")" << test.encode() << R"("})";
         std::string jsonStr = json.str();
 
-        auto r = cpr::Post(cpr::Url{ "http://192.168.31.205:8000/activity_report" },
+        auto r = cpr::Post(cpr::Url{ server_url },
             cpr::Body{ jsonStr },
             cpr::Header{ { "Content-Type", "application/json" } });
 
