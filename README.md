@@ -1,30 +1,34 @@
 # ActivityWatcher
 This is only works in LAN  
-You must forwarding port 8000 on your router to port 8000 on your machine, where server will be running
-
+You must forwarding port 8000 on your router to port 8000 on your machine, where server will be running  
+  
 ## Run server
-To run the server firstly you must install requirments:  
+You must install python3.11 or later.  
+For easy way to start - i recomend to download PyCharm.  
+Open server folder in PyCharm.  
+  
+Go to terminal and execute this command:
 <code>pip3 install requirments.txt</code>   
   
 After this you may run server. Just run main.py for this:  
 <code>python3 main.py</code>  
-Or from your IDE
-
+Or from your IDE  
+  
 ## Run client
 When server is running, you may run clients, which needs to be watched.  
-You must use C++ 17 or later and CMake.  
-
+  
 Git must be installed on your machine.  
 You can download it from official site or with PowerShell:  
-<code>winget install --id Git.Git -e --source winget</code>
+<code>winget install --id Git.Git -e --source winget</code>  
+  
+You must install Visual Studio 2022 or later and C++ components (Use default params) on your machine.  
+Open client folder in Visual Studio and wait when CMake finish installing.  
+Run ActivityWatcherCMake.cpp (You will get an error, its ok)  
+Move dll files from root of this repo to client/out/build/x64-debug/ActivityWatcherCMake  
   
 Input in server_ip.txt file an ip of the server.  
 Go to and run client/out/build/x64-debug/ActivityWatcherCMake/ActivityWatcherCMake.exe  
-
+  
 ## Interface
 Visit: http://your_server_ip:8000/  
 Interface is simple
-
-# Main problems
-If you don't wanna headache with C++ settings - just download Visual Studio and install C++ component.  
-For python you need to install python of course and you may not use IDE, but i recomend to install PyCharm.
