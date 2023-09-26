@@ -22,6 +22,7 @@ You can download it from official site or with PowerShell:
 <code>winget install --id Git.Git -e --source winget</code>  
   
 You must install Visual Studio 2022 or later and C++ (17 or later) components (Use default params) on your machine.  
+Create dev folder in root of disk C ("C://dev/")  
 Open client folder in Visual Studio and wait when CMake finish installing.  
 Run ActivityWatcherCMake.cpp (You will get an error, its ok)  
 Move dll files from root of this repo to client/out/build/x64-debug/ActivityWatcherCMake  
