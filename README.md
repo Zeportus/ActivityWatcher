@@ -12,7 +12,11 @@ Or from your IDE
 
 ## Run client
 When server is running, you may run clients, which needs to be watched.  
-You must use C++ 17 or later.  
+You must use C++ 17 or later and CMake.  
+
+Git must be installed on your machine.  
+You can download it from official site or with PowerShell:  
+<code>winget install --id Git.Git -e --source winget</code>
   
 Input in server_ip.txt file an ip of the server.  
 Go to and run client/out/build/x64-debug/ActivityWatcherCMake/ActivityWatcherCMake.exe  
