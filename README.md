@@ -8,6 +8,7 @@ To run the server firstly you must install requirments:
   
 After this you may run server. Just run main.py for this:  
 <code>python3 main.py</code>  
+Or from your IDE
 
 ## Run client
 When server is running, you may run clients, which needs to be watched.  
