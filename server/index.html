@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Сотрудники</title>
+    </head>
+    <body>
+        <form action="/update" method="post">
+            <input type="submit" value="Обновить">
+        </form>
+        <br><br><br>
+        {% for user in users %}
+        <div>
+            <form action="/screenshot/{{ user.machine }}/{{ user.username }}" method="get">
+                <span>{{ user.domain }} / {{ user.machine }} / {{ user.ip }} / {{ user.username }}</span>
+                <input type="submit" value="Скриншот">
+                <div>Длительность последнего бездействия: {{ user.h }} : {{ user.m }} : {{ user.s }}</div>
+            </form>
+        </div>
+        <br><br>
+        {% endfor %}
+    </body>
+</html>

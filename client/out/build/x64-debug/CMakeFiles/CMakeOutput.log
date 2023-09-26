@@ -1,0 +1,1090 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.33.31630 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.33.31630.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.33.31630 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.33.31630.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_96657 && [1/2] Building C object CMakeFiles\cmTC_96657.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_96657.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_05895 && [1/2] Building CXX object CMakeFiles\cmTC_05895.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_05895.exe
+
+
+
+Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE succeeded with the following compile output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_62361 && [1/2] Building CXX object CMakeFiles\cmTC_62361.dir\src.cxx.obj
+cl: командная строка warning D9002: пропуск неизвестного параметра "-fsanitize=thread"
+[2/2] Linking CXX executable cmTC_62361.exe
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ADDRESS_SANITIZER_AVAILABLE succeeded with the following compile output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_492a3 && [1/2] Building CXX object CMakeFiles\cmTC_492a3.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_492a3.exe
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ALL_SANITIZERS_AVAILABLE succeeded with the following compile output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_09243 && [1/2] Building CXX object CMakeFiles\cmTC_09243.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_09243.exe
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1db28 && [1/2] Building C object CMakeFiles\cmTC_1db28.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_1db28.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5ad2a && [1/2] Building C object CMakeFiles\cmTC_5ad2a.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_5ad2a.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_13ae3 && [1/2] Building C object CMakeFiles\cmTC_13ae3.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_13ae3.exe
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_20763 && [1/2] Building C object CMakeFiles\cmTC_20763.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_20763.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_PTRDIFF_T succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_dcd58 && [1/2] Building C object CMakeFiles\cmTC_dcd58.dir\src.c.obj
+[2/2] Linking C executable cmTC_dcd58.exe
+
+
+Source file was:
+#include <stddef.h>
+     int main() {
+         ptrdiff_t *a;
+         (void)a;
+         return 0;
+    }
+Performing C SOURCE FILE Test HAVE_SSE2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_47fc2 && [1/2] Building C object CMakeFiles\cmTC_47fc2.dir\src.c.obj
+[2/2] Linking C executable cmTC_47fc2.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i zero = _mm_setzero_si128();
+            (void)zero;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSSE3_INTRIN succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_cd874 && [1/2] Building C object CMakeFiles\cmTC_cd874.dir\src.c.obj
+[2/2] Linking C executable cmTC_cd874.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i u, v, w;
+            u = _mm_set1_epi32(1);
+            v = _mm_set1_epi32(2);
+            w = _mm_hadd_epi32(u, v);
+            (void)w;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INTRIN succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5b90e && [1/2] Building C object CMakeFiles\cmTC_5b90e.dir\src.c.obj
+[2/2] Linking C executable cmTC_5b90e.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned crc = 0;
+            char c = 'c';
+        #if defined(_MSC_VER)
+            crc = _mm_crc32_u32(crc, c);
+        #else
+            crc = __builtin_ia32_crc32qi(crc, c);
+        #endif
+            (void)crc;
+            return 0;
+        }
+Performing C SOURCE FILE Test HAVE_SSE42CMPSTR_INTRIN succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d6ea6 && [1/2] Building C object CMakeFiles\cmTC_d6ea6.dir\src.c.obj
+[2/2] Linking C executable cmTC_d6ea6.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned char a[64] = { 0 };
+            unsigned char b[64] = { 0 };
+            __m128i xmm_src0, xmm_src1;
+            xmm_src0 = _mm_loadu_si128((__m128i *)(char *)a);
+            xmm_src1 = _mm_loadu_si128((__m128i *)(char *)b);
+            return _mm_cmpestri(xmm_src0, 16, xmm_src1, 16, 0);
+        }
+Performing C SOURCE FILE Test HAVE_PCLMULQDQ_INTRIN succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_071cb && [1/2] Building C object CMakeFiles\cmTC_071cb.dir\src.c.obj
+[2/2] Linking C executable cmTC_071cb.exe
+
+
+Source file was:
+#include <immintrin.h>
+            int main(void) {
+                __m128i a = _mm_setzero_si128();
+                __m128i b = _mm_setzero_si128();
+                __m128i c = _mm_clmulepi64_si128(a, b, 0x10);
+                (void)c;
+                return 0;
+            }
+Performing C SOURCE FILE Test HAVE_AVX2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_34a01 && [1/2] Building C object CMakeFiles\cmTC_34a01.dir\src.c.obj
+[2/2] Linking C executable cmTC_34a01.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m256i x = _mm256_set1_epi16(2);
+            const __m256i y = _mm256_set1_epi16(1);
+            x = _mm256_subs_epu16(x, y);
+            (void)x;
+            return 0;
+        }
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5f32b && [1/2] Building C object CMakeFiles\cmTC_5f32b.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_5f32b.exe
+
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_74dc8 && [1/2] Building C object CMakeFiles\cmTC_74dc8.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_74dc8.exe
+
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_59d02 && [1/2] Building C object CMakeFiles\cmTC_59d02.dir\HAVE_WINDOWS_H.c.obj
+[2/2] Linking C executable cmTC_59d02.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_44d2f && [1/2] Building C object CMakeFiles\cmTC_44d2f.dir\HAVE_WS2TCPIP_H.c.obj
+[2/2] Linking C executable cmTC_44d2f.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_54395 && [1/2] Building C object CMakeFiles\cmTC_54395.dir\HAVE_WINSOCK2_H.c.obj
+[2/2] Linking C executable cmTC_54395.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9de81 && [1/2] Building C object CMakeFiles\cmTC_9de81.dir\HAVE_WINCRYPT_H.c.obj
+[2/2] Linking C executable cmTC_9de81.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_fab50 && [1/2] Building C object CMakeFiles\cmTC_fab50.dir\HAVE_STDIO_H.c.obj
+[2/2] Linking C executable cmTC_fab50.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0941d && [1/2] Building C object CMakeFiles\cmTC_0941d.dir\HAVE_ASSERT_H.c.obj
+[2/2] Linking C executable cmTC_0941d.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_92d39 && [1/2] Building C object CMakeFiles\cmTC_92d39.dir\HAVE_ERRNO_H.c.obj
+[2/2] Linking C executable cmTC_92d39.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b50ce && [1/2] Building C object CMakeFiles\cmTC_b50ce.dir\HAVE_LOCALE_H.c.obj
+[2/2] Linking C executable cmTC_b50ce.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_821a6 && [1/2] Building C object CMakeFiles\cmTC_821a6.dir\HAVE_STDBOOL_H.c.obj
+[2/2] Linking C executable cmTC_821a6.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_39e1e && [1/2] Building C object CMakeFiles\cmTC_39e1e.dir\SIZEOF_SIZE_T.c.obj
+[2/2] Linking C executable cmTC_39e1e.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1a71c && [1/2] Building C object CMakeFiles\cmTC_1a71c.dir\SIZEOF_LONG_LONG.c.obj
+[2/2] Linking C executable cmTC_1a71c.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7c459 && [1/2] Building C object CMakeFiles\cmTC_7c459.dir\SIZEOF_LONG.c.obj
+[2/2] Linking C executable cmTC_7c459.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_25108 && [1/2] Building C object CMakeFiles\cmTC_25108.dir\SIZEOF_SHORT.c.obj
+[2/2] Linking C executable cmTC_25108.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6510b && [1/2] Building C object CMakeFiles\cmTC_6510b.dir\SIZEOF_INT.c.obj
+[2/2] Linking C executable cmTC_6510b.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_29b93 && [1/2] Building C object CMakeFiles\cmTC_29b93.dir\SIZEOF___INT64.c.obj
+[2/2] Linking C executable cmTC_29b93.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2cf6c && [1/2] Building C object CMakeFiles\cmTC_2cf6c.dir\SIZEOF_TIME_T.c.obj
+[2/2] Linking C executable cmTC_2cf6c.exe
+
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_a598e && [1/2] Building C object CMakeFiles\cmTC_a598e.dir\CheckSymbolExists.c.obj
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+[2/2] Linking C executable cmTC_a598e.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ba9e4 && [1/2] Building C object CMakeFiles\cmTC_ba9e4.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_ba9e4.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b6f78 && [1/2] Building C object CMakeFiles\cmTC_b6f78.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_b6f78.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4227c && [1/2] Building C object CMakeFiles\cmTC_4227c.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_4227c.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_905fa && [1/2] Building C object CMakeFiles\cmTC_905fa.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_905fa.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpeername exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_90787 && [1/2] Building C object CMakeFiles\cmTC_90787.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_90787.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpeername
+  return ((int*)(&getpeername))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getsockname exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9de05 && [1/2] Building C object CMakeFiles\cmTC_9de05.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_9de05.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getsockname
+  return ((int*)(&getsockname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b1feb && [1/2] Building C object CMakeFiles\cmTC_b1feb.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_b1feb.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_25d50 && [1/2] Building C object CMakeFiles\cmTC_25d50.dir\CheckSymbolExists.c.obj
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+[2/2] Linking C executable cmTC_25d50.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsockopt exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0a5d9 && [1/2] Building C object CMakeFiles\cmTC_0a5d9.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_0a5d9.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b5e7f && [1/2] Building C object CMakeFiles\cmTC_b5e7f.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_b5e7f.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9f7c4 && [1/2] Building C object CMakeFiles\cmTC_9f7c4.dir\CurlTests.c.obj
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(241) : warning C4700: использована неинициализированная локальная переменная "socket"
+[2/2] Linking C executable cmTC_9f7c4.exe
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_44a49 && [1/2] Building C object CMakeFiles\cmTC_44a49.dir\CurlTests.c.obj
+[2/2] Linking C executable cmTC_44a49.exe
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_37d3f && [1/2] Building C object CMakeFiles\cmTC_37d3f.dir\CurlTests.c.obj
+[2/2] Linking C executable cmTC_37d3f.exe
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1f7b6 && [1/2] Building C object CMakeFiles\cmTC_1f7b6.dir\CurlTests.c.obj
+[2/2] Linking C executable cmTC_1f7b6.exe
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_82172 && [1/2] Building C object CMakeFiles\cmTC_82172.dir\SIZEOF_OFF_T.c.obj
+[2/2] Linking C executable cmTC_82172.exe
+
+
+
+Determining size of curl_off_t passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6366e && [1/2] Building C object CMakeFiles\cmTC_6366e.dir\SIZEOF_CURL_OFF_T.c.obj
+[2/2] Linking C executable cmTC_6366e.exe
+
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_35dd2 && [1/2] Building C object CMakeFiles\cmTC_35dd2.dir\src.c.obj
+[2/2] Linking C static library cmTC_35dd2.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_dfa3d && [1/2] Building C object CMakeFiles\cmTC_dfa3d.dir\src.c.obj
+[2/2] Linking C static library cmTC_dfa3d.lib
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    recv(SOCKET, char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = recv(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_758df && [1/2] Building C object CMakeFiles\cmTC_758df.dir\src.c.obj
+[2/2] Linking C static library cmTC_758df.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b7ba2 && [1/2] Building C object CMakeFiles\cmTC_b7ba2.dir\src.c.obj
+[2/2] Linking C static library cmTC_b7ba2.lib
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    send(SOCKET, const char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      const char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = send(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5b454 && [1/2] Building C object CMakeFiles\cmTC_5b454.dir\src.c.obj
+[2/2] Linking C static library cmTC_5b454.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_a8ee7 && [1/2] Building C object CMakeFiles\cmTC_a8ee7.dir\SIZEOF_STRUCT_SOCKADDR_STORAGE.c.obj
+[2/2] Linking C static library cmTC_a8ee7.lib
+
+
+
+Determining if the CryptAcquireContext exist passed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_41c0b && [1/2] Building C object CMakeFiles\cmTC_41c0b.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_41c0b.exe
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CryptAcquireContext
+  return ((int*)(&CryptAcquireContext))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

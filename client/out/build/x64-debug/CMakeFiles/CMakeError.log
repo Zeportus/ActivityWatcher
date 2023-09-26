@@ -1,0 +1,2128 @@
+Performing C++ SOURCE FILE Test LEAK_SANITIZER_AVAILABLE failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4090f && [1/2] Building CXX object CMakeFiles\cmTC_4090f.dir\src.cxx.obj
+cl: командная строка warning D9002: пропуск неизвестного параметра "-fsanitize=leak"
+[2/2] Linking CXX executable cmTC_4090f.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_a39fc && [1/2] Building CXX object CMakeFiles\cmTC_a39fc.dir\src.cxx.obj
+cl: командная строка warning D9002: пропуск неизвестного параметра "-fsanitize=undefined"
+[2/2] Linking CXX executable cmTC_a39fc.exe
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/sdt.h exists failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_388ef && [1/2] Building C object CMakeFiles\cmTC_388ef.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_388ef.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 /W3   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_388ef.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_388ef.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Не удается открыть файл включение: sys/sdt.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_87aad && [1/2] Building C object CMakeFiles\cmTC_87aad.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_87aad.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 /W3   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_87aad.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_87aad.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Не удается открыть файл включение: unistd.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e1476 && [1/2] Building C object CMakeFiles\cmTC_e1476.dir\OFF64_T.c.obj
+FAILED: CMakeFiles/cmTC_e1476.dir/OFF64_T.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /DWIN32 /D_WINDOWS /W3 /W3   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_e1476.dir\OFF64_T.c.obj /FdCMakeFiles\cmTC_e1476.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\OFF64_T.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\OFF64_T.c(30): error C2065: off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\OFF64_T.c(31): error C2065: off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\OFF64_T.c(32): error C2065: off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\OFF64_T.c(33): error C2065: off64_t: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of _off64_t failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_beea0 && [1/2] Building C object CMakeFiles\cmTC_beea0.dir\_OFF64_T.c.obj
+FAILED: CMakeFiles/cmTC_beea0.dir/_OFF64_T.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /DWIN32 /D_WINDOWS /W3 /W3   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_beea0.dir\_OFF64_T.c.obj /FdCMakeFiles\cmTC_beea0.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\_OFF64_T.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\_OFF64_T.c(29): error C2065: _off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\_OFF64_T.c(30): error C2065: _off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\_OFF64_T.c(31): error C2065: _off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\_OFF64_T.c(32): error C2065: _off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\_OFF64_T.c(33): error C2065: _off64_t: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CheckTypeSize/_OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(_off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __off64_t failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_390e5 && [1/2] Building C object CMakeFiles\cmTC_390e5.dir\__OFF64_T.c.obj
+FAILED: CMakeFiles/cmTC_390e5.dir/__OFF64_T.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo -D_LARGEFILE64_SOURCE=1 -D__USE_LARGEFILE64  /DWIN32 /D_WINDOWS /W3 /W3   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_390e5.dir\__OFF64_T.c.obj /FdCMakeFiles\cmTC_390e5.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\__OFF64_T.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\__OFF64_T.c(29): error C2065: __off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\__OFF64_T.c(30): error C2065: __off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\__OFF64_T.c(31): error C2065: __off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\__OFF64_T.c(32): error C2065: __off64_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\__OFF64_T.c(33): error C2065: __off64_t: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CheckTypeSize/__OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0f5d1 && [1/2] Building C object CMakeFiles\cmTC_0f5d1.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_0f5d1.exe
+FAILED: cmTC_0f5d1.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_0f5d1.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_0f5d1.dir\CheckFunctionExists.c.obj  /out:cmTC_0f5d1.exe /implib:cmTC_0f5d1.lib /pdb:cmTC_0f5d1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_0f5d1.dir\CheckFunctionExists.c.obj /out:cmTC_0f5d1.exe /implib:cmTC_0f5d1.lib /pdb:cmTC_0f5d1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_0f5d1.dir/intermediate.manifest CMakeFiles\cmTC_0f5d1.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: ссылка на неразрешенный внешний символ fseeko в функции main.
+cmTC_0f5d1.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function posix_memalign exists failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_681ed && [1/2] Building C object CMakeFiles\cmTC_681ed.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_681ed.exe
+FAILED: cmTC_681ed.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_681ed.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_681ed.dir\CheckFunctionExists.c.obj  /out:cmTC_681ed.exe /implib:cmTC_681ed.lib /pdb:cmTC_681ed.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_681ed.dir\CheckFunctionExists.c.obj /out:cmTC_681ed.exe /implib:cmTC_681ed.lib /pdb:cmTC_681ed.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_681ed.dir/intermediate.manifest CMakeFiles\cmTC_681ed.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: ссылка на неразрешенный внешний символ posix_memalign в функции main.
+cmTC_681ed.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test HAVE_NO_INTERPOSITION failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ec5bc && [1/2] Building C object CMakeFiles\cmTC_ec5bc.dir\src.c.obj
+cl: командная строка warning D9002: пропуск неизвестного параметра "-fno-semantic-interposition"
+[2/2] Linking C executable cmTC_ec5bc.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_a0302 && [1/2] Building C object CMakeFiles\cmTC_a0302.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_a0302.dir/src.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo -DHAVE_ATTRIBUTE_VISIBILITY_HIDDEN  /DWIN32 /D_WINDOWS /W3 /W3   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_a0302.dir\src.c.obj /FdCMakeFiles\cmTC_a0302.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2143: синтаксическая ошибка: отсутствие ")" перед "("
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2091: функция возвращает функцию
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2143: синтаксическая ошибка: отсутствие ")" перед "строка"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2143: синтаксическая ошибка: отсутствие "{" перед "строка"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2059: синтаксическая ошибка: строка
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2059: синтаксическая ошибка: )
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f33ba && [1/2] Building C object CMakeFiles\cmTC_f33ba.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_f33ba.dir/src.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo -DHAVE_ATTRIBUTE_VISIBILITY_INTERNAL  /DWIN32 /D_WINDOWS /W3 /W3   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_f33ba.dir\src.c.obj /FdCMakeFiles\cmTC_f33ba.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2143: синтаксическая ошибка: отсутствие ")" перед "("
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2091: функция возвращает функцию
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2143: синтаксическая ошибка: отсутствие ")" перед "строка"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2143: синтаксическая ошибка: отсутствие "{" перед "строка"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2059: синтаксическая ошибка: строка
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(2): error C2059: синтаксическая ошибка: )
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZ failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_15f43 && [1/2] Building C object CMakeFiles\cmTC_15f43.dir\src.c.obj
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(3): warning C4013: __builtin_ctz: нет определения; предполагается "extern" с возвратом типа "int"
+[2/2] Linking C executable cmTC_15f43.exe
+FAILED: cmTC_15f43.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_15f43.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_15f43.dir\src.c.obj  /out:cmTC_15f43.exe /implib:cmTC_15f43.lib /pdb:cmTC_15f43.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_15f43.dir\src.c.obj /out:cmTC_15f43.exe /implib:cmTC_15f43.lib /pdb:cmTC_15f43.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_15f43.dir/intermediate.manifest CMakeFiles\cmTC_15f43.dir/manifest.res" failed (exit code 1120) with the following output:
+src.c.obj : error LNK2019: ссылка на неразрешенный внешний символ __builtin_ctz в функции main.
+cmTC_15f43.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctz(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZLL failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3bf80 && [1/2] Building C object CMakeFiles\cmTC_3bf80.dir\src.c.obj
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(3): warning C4013: __builtin_ctzll: нет определения; предполагается "extern" с возвратом типа "int"
+[2/2] Linking C executable cmTC_3bf80.exe
+FAILED: cmTC_3bf80.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3bf80.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_3bf80.dir\src.c.obj  /out:cmTC_3bf80.exe /implib:cmTC_3bf80.lib /pdb:cmTC_3bf80.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_3bf80.dir\src.c.obj /out:cmTC_3bf80.exe /implib:cmTC_3bf80.lib /pdb:cmTC_3bf80.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_3bf80.dir/intermediate.manifest CMakeFiles\cmTC_3bf80.dir/manifest.res" failed (exit code 1120) with the following output:
+src.c.obj : error LNK2019: ссылка на неразрешенный внешний символ __builtin_ctzll в функции main.
+cmTC_3bf80.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctzll(zero);
+        (void)test;
+        return 0;
+    }
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INLINE_ASM failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_555da && [1/2] Building C object CMakeFiles\cmTC_555da.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_555da.dir/src.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo -DHAVE_SSE42CRC_INLINE_ASM  /DWIN32 /D_WINDOWS /W3 /W3   /MDd /Zi /Ob0 /Od /RTC1 -DZLIB_DEBUG /showIncludes /FoCMakeFiles\cmTC_555da.dir\src.c.obj /FdCMakeFiles\cmTC_555da.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2065: mov: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edx"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2065: edx: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2065: eax: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "crc32"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2065: crc32: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "val"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(4): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) {
+            unsigned val = 0, h = 0;
+        #if defined(_MSC_VER)
+            { __asm mov edx, h __asm mov eax, val __asm crc32 eax, edx __asm mov val, eax }
+        #else
+            __asm__ __volatile__ ( "crc32 %1,%0" : "+r" (h) : "r" (val) );
+        #endif
+            return (int)h;
+        }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_14241 && [1/2] Building C object CMakeFiles\cmTC_14241.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_14241.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= /showIncludes /FoCMakeFiles\cmTC_14241.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_14241.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/filio.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6c00f && [1/2] Building C object CMakeFiles\cmTC_6c00f.dir\HAVE_SYS_FILIO_H.c.obj
+FAILED: CMakeFiles/cmTC_6c00f.dir/HAVE_SYS_FILIO_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_6c00f.dir\HAVE_SYS_FILIO_H.c.obj /FdCMakeFiles\cmTC_6c00f.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c(7): fatal error C1083: Не удается открыть файл включение: sys/filio.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0cc6e && [1/2] Building C object CMakeFiles\cmTC_0cc6e.dir\HAVE_SYS_IOCTL_H.c.obj
+FAILED: CMakeFiles/cmTC_0cc6e.dir/HAVE_SYS_IOCTL_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_0cc6e.dir\HAVE_SYS_IOCTL_H.c.obj /FdCMakeFiles\cmTC_0cc6e.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(7): fatal error C1083: Не удается открыть файл включение: sys/ioctl.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/resource.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9ea31 && [1/2] Building C object CMakeFiles\cmTC_9ea31.dir\HAVE_SYS_RESOURCE_H.c.obj
+FAILED: CMakeFiles/cmTC_9ea31.dir/HAVE_SYS_RESOURCE_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_9ea31.dir\HAVE_SYS_RESOURCE_H.c.obj /FdCMakeFiles\cmTC_9ea31.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c(7): fatal error C1083: Не удается открыть файл включение: sys/resource.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/resource.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/uio.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b598e && [1/2] Building C object CMakeFiles\cmTC_b598e.dir\HAVE_SYS_UIO_H.c.obj
+FAILED: CMakeFiles/cmTC_b598e.dir/HAVE_SYS_UIO_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_b598e.dir\HAVE_SYS_UIO_H.c.obj /FdCMakeFiles\cmTC_b598e.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(9): fatal error C1083: Не удается открыть файл включение: sys/uio.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/un.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1076b && [1/2] Building C object CMakeFiles\cmTC_1076b.dir\HAVE_SYS_UN_H.c.obj
+FAILED: CMakeFiles/cmTC_1076b.dir/HAVE_SYS_UN_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_1076b.dir\HAVE_SYS_UN_H.c.obj /FdCMakeFiles\cmTC_1076b.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c(9): fatal error C1083: Не удается открыть файл включение: sys/un.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/un.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;sys/xattr.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_65c99 && [1/2] Building C object CMakeFiles\cmTC_65c99.dir\HAVE_SYS_XATTR_H.c.obj
+FAILED: CMakeFiles/cmTC_65c99.dir/HAVE_SYS_XATTR_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_65c99.dir\HAVE_SYS_XATTR_H.c.obj /FdCMakeFiles\cmTC_65c99.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c(10): fatal error C1083: Не удается открыть файл включение: sys/xattr.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <sys/xattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;arpa/tftp.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_db334 && [1/2] Building C object CMakeFiles\cmTC_db334.dir\HAVE_ARPA_TFTP_H.c.obj
+FAILED: CMakeFiles/cmTC_db334.dir/HAVE_ARPA_TFTP_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_db334.dir\HAVE_ARPA_TFTP_H.c.obj /FdCMakeFiles\cmTC_db334.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c(10): fatal error C1083: Не удается открыть файл включение: arpa/tftp.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <arpa/tftp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;idn2.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_df766 && [1/2] Building C object CMakeFiles\cmTC_df766.dir\HAVE_IDN2_H.c.obj
+FAILED: CMakeFiles/cmTC_df766.dir/HAVE_IDN2_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_df766.dir\HAVE_IDN2_H.c.obj /FdCMakeFiles\cmTC_df766.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c(13): fatal error C1083: Не удается открыть файл включение: idn2.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;ifaddrs.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1ef1b && [1/2] Building C object CMakeFiles\cmTC_1ef1b.dir\HAVE_IFADDRS_H.c.obj
+FAILED: CMakeFiles/cmTC_1ef1b.dir/HAVE_IFADDRS_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_1ef1b.dir\HAVE_IFADDRS_H.c.obj /FdCMakeFiles\cmTC_1ef1b.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c(13): fatal error C1083: Не удается открыть файл включение: ifaddrs.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;krb.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e5bf1 && [1/2] Building C object CMakeFiles\cmTC_e5bf1.dir\HAVE_KRB_H.c.obj
+FAILED: CMakeFiles/cmTC_e5bf1.dir/HAVE_KRB_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_e5bf1.dir\HAVE_KRB_H.c.obj /FdCMakeFiles\cmTC_e5bf1.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c(14): fatal error C1083: Не удается открыть файл включение: krb.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <krb.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0d64b && [1/2] Building C object CMakeFiles\cmTC_0d64b.dir\HAVE_LIBGEN_H.c.obj
+FAILED: CMakeFiles/cmTC_0d64b.dir/HAVE_LIBGEN_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_0d64b.dir\HAVE_LIBGEN_H.c.obj /FdCMakeFiles\cmTC_0d64b.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c(14): fatal error C1083: Не удается открыть файл включение: libgen.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;netinet/tcp.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f00a5 && [1/2] Building C object CMakeFiles\cmTC_f00a5.dir\HAVE_NETINET_TCP_H.c.obj
+FAILED: CMakeFiles/cmTC_f00a5.dir/HAVE_NETINET_TCP_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_f00a5.dir\HAVE_NETINET_TCP_H.c.obj /FdCMakeFiles\cmTC_f00a5.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(15): fatal error C1083: Не удается открыть файл включение: netinet/tcp.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <netinet/tcp.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file linux/tcp.h exists failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d15a1 && [1/2] Building C object CMakeFiles\cmTC_d15a1.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_d15a1.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_d15a1.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_d15a1.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Не удается открыть файл включение: linux/tcp.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;pem.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b8f4b && [1/2] Building C object CMakeFiles\cmTC_b8f4b.dir\HAVE_PEM_H.c.obj
+FAILED: CMakeFiles/cmTC_b8f4b.dir/HAVE_PEM_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_b8f4b.dir\HAVE_PEM_H.c.obj /FdCMakeFiles\cmTC_b8f4b.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c(15): fatal error C1083: Не удается открыть файл включение: pem.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <pem.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;poll.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8eefb && [1/2] Building C object CMakeFiles\cmTC_8eefb.dir\HAVE_POLL_H.c.obj
+FAILED: CMakeFiles/cmTC_8eefb.dir/HAVE_POLL_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_8eefb.dir\HAVE_POLL_H.c.obj /FdCMakeFiles\cmTC_8eefb.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c(15): fatal error C1083: Не удается открыть файл включение: poll.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <poll.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;ssl.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5910d && [1/2] Building C object CMakeFiles\cmTC_5910d.dir\HAVE_SSL_H.c.obj
+FAILED: CMakeFiles/cmTC_5910d.dir/HAVE_SSL_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_5910d.dir\HAVE_SSL_H.c.obj /FdCMakeFiles\cmTC_5910d.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c(17): fatal error C1083: Не удается открыть файл включение: ssl.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <ssl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;stropts.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_38bf7 && [1/2] Building C object CMakeFiles\cmTC_38bf7.dir\HAVE_STROPTS_H.c.obj
+FAILED: CMakeFiles/cmTC_38bf7.dir/HAVE_STROPTS_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_38bf7.dir\HAVE_STROPTS_H.c.obj /FdCMakeFiles\cmTC_38bf7.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(21): fatal error C1083: Не удается открыть файл включение: stropts.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h;malloc.h;memory.h;sys/utsname.h exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c5b3a && [1/2] Building C object CMakeFiles\cmTC_c5b3a.dir\HAVE_SYS_UTSNAME_H.c.obj
+FAILED: CMakeFiles/cmTC_c5b3a.dir/HAVE_SYS_UTSNAME_H.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_c5b3a.dir\HAVE_SYS_UTSNAME_H.c.obj /FdCMakeFiles\cmTC_c5b3a.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c(26): fatal error C1083: Не удается открыть файл включение: sys/utsname.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+#include <sys/utsname.h>
+
+
+int main(void){return 0;}
+
+Determining size of ssize_t failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_122fb && [1/2] Building C object CMakeFiles\cmTC_122fb.dir\SIZEOF_SSIZE_T.c.obj
+FAILED: CMakeFiles/cmTC_122fb.dir/SIZEOF_SSIZE_T.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_122fb.dir\SIZEOF_SSIZE_T.c.obj /FdCMakeFiles\cmTC_122fb.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(28): error C2065: ssize_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(29): error C2065: ssize_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(30): error C2065: ssize_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(31): error C2065: ssize_t: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(32): error C2065: ssize_t: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the basename exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4b48a && [1/2] Building C object CMakeFiles\cmTC_4b48a.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_4b48a.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_4b48a.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_4b48a.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: basename: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmpi exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2bc39 && [1/2] Building C object CMakeFiles\cmTC_2bc39.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_2bc39.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_2bc39.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_2bc39.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: strncmpi: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the alarm exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4c172 && [1/2] Building C object CMakeFiles\cmTC_4c172.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_4c172.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_4c172.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_4c172.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: alarm: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alarm
+  return ((int*)(&alarm))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getppid exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_a14ff && [1/2] Building C object CMakeFiles\cmTC_a14ff.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_a14ff.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_a14ff.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_a14ff.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: getppid: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getppid
+  return ((int*)(&getppid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the utimes exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f4cbe && [1/2] Building C object CMakeFiles\cmTC_f4cbe.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_f4cbe.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_f4cbe.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_f4cbe.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: utimes: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef utimes
+  return ((int*)(&utimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpwuid_r exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5f42a && [1/2] Building C object CMakeFiles\cmTC_5f42a.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_5f42a.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_5f42a.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_5f42a.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: getpwuid_r: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpwuid_r
+  return ((int*)(&getpwuid_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the usleep exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_bbd33 && [1/2] Building C object CMakeFiles\cmTC_bbd33.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_bbd33.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_bbd33.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_bbd33.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: usleep: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef usleep
+  return ((int*)(&usleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_71b1a && [1/2] Building C object CMakeFiles\cmTC_71b1a.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_71b1a.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_71b1a.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_71b1a.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: strerror_r: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the siginterrupt exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b1d56 && [1/2] Building C object CMakeFiles\cmTC_b1d56.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_b1d56.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_b1d56.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_b1d56.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: siginterrupt: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef siginterrupt
+  return ((int*)(&siginterrupt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pipe exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9ab36 && [1/2] Building C object CMakeFiles\cmTC_9ab36.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_9ab36.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_9ab36.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_9ab36.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: pipe: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe
+  return ((int*)(&pipe))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ftruncate exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0d70e && [1/2] Building C object CMakeFiles\cmTC_0d70e.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_0d70e.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_0d70e.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_0d70e.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: ftruncate: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftruncate
+  return ((int*)(&ftruncate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the if_nametoindex exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_edf36 && [1/2] Building C object CMakeFiles\cmTC_edf36.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_edf36.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_edf36.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_edf36.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: if_nametoindex: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_nametoindex
+  return ((int*)(&if_nametoindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f4dbd && [1/2] Building C object CMakeFiles\cmTC_f4dbd.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_f4dbd.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_f4dbd.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_f4dbd.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: getrlimit: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_51b75 && [1/2] Building C object CMakeFiles\cmTC_51b75.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_51b75.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_51b75.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_51b75.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: setrlimit: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fcntl exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2b68d && [1/2] Building C object CMakeFiles\cmTC_2b68d.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_2b68d.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_2b68d.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_2b68d.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: fcntl: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ioctl exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_02742 && [1/2] Building C object CMakeFiles\cmTC_02742.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_02742.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_02742.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_02742.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: ioctl: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_31d3e && [1/2] Building C object CMakeFiles\cmTC_31d3e.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_31d3e.exe
+FAILED: cmTC_31d3e.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_31d3e.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_31d3e.dir\CheckFunctionExists.c.obj  /out:cmTC_31d3e.exe /implib:cmTC_31d3e.lib /pdb:cmTC_31d3e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_31d3e.dir\CheckFunctionExists.c.obj /out:cmTC_31d3e.exe /implib:cmTC_31d3e.lib /pdb:cmTC_31d3e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_31d3e.dir/intermediate.manifest CMakeFiles\cmTC_31d3e.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: ссылка на неразрешенный внешний символ mach_absolute_time в функции main.
+cmTC_31d3e.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the fsetxattr exist failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8960e && [1/2] Building C object CMakeFiles\cmTC_8960e.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_8960e.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_8960e.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_8960e.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): error C2065: fsetxattr: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsetxattr
+  return ((int*)(&fsetxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of sa_family_t failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b8421 && [1/2] Building C object CMakeFiles\cmTC_b8421.dir\SIZEOF_SA_FAMILY_T.c.obj
+FAILED: CMakeFiles/cmTC_b8421.dir/SIZEOF_SA_FAMILY_T.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_b8421.dir\SIZEOF_SA_FAMILY_T.c.obj /FdCMakeFiles\cmTC_b8421.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\SIZEOF_SA_FAMILY_T.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\SIZEOF_SA_FAMILY_T.c(3): fatal error C1083: Не удается открыть файл включение: sys/socket.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CheckTypeSize/SIZEOF_SA_FAMILY_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+#include "sys/socket.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(sa_family_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ADDRESS_FAMILY failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_847df && [1/2] Building C object CMakeFiles\cmTC_847df.dir\SIZEOF_ADDRESS_FAMILY.c.obj
+FAILED: CMakeFiles/cmTC_847df.dir/SIZEOF_ADDRESS_FAMILY.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_847df.dir\SIZEOF_ADDRESS_FAMILY.c.obj /FdCMakeFiles\cmTC_847df.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CheckTypeSize\SIZEOF_ADDRESS_FAMILY.c
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ws2def.h(47): fatal error C1189: #error:  Do not include winsock.h and ws2def.h in the same module. Instead include only winsock2.h.
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CheckTypeSize/SIZEOF_ADDRESS_FAMILY.c:
+#include <sys/types.h>
+#include <stddef.h>
+#include "ws2def.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ADDRESS_FAMILY))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_faa45 && [1/2] Building C object CMakeFiles\cmTC_faa45.dir\CurlTests.c.obj
+FAILED: CMakeFiles/cmTC_faa45.dir/CurlTests.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DHAVE_FCNTL_O_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_faa45.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_faa45.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(44): fatal error C1083: Не удается открыть файл включение: unistd.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7ef8a && [1/2] Building C object CMakeFiles\cmTC_7ef8a.dir\CurlTests.c.obj
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(265): warning C4013: IoctlSocket: нет определения; предполагается "extern" с возвратом типа "int"
+[2/2] Linking C executable cmTC_7ef8a.exe
+FAILED: cmTC_7ef8a.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7ef8a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7ef8a.dir\CurlTests.c.obj  /out:cmTC_7ef8a.exe /implib:cmTC_7ef8a.lib /pdb:cmTC_7ef8a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7ef8a.dir\CurlTests.c.obj /out:cmTC_7ef8a.exe /implib:cmTC_7ef8a.lib /pdb:cmTC_7ef8a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_7ef8a.dir/intermediate.manifest CMakeFiles\cmTC_7ef8a.dir/manifest.res" failed (exit code 1120) with the following output:
+CurlTests.c.obj : error LNK2019: ссылка на неразрешенный внешний символ IoctlSocket в функции main.
+cmTC_7ef8a.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1e175 && [1/2] Building C object CMakeFiles\cmTC_1e175.dir\CurlTests.c.obj
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(289): warning C4013: IoctlSocket: нет определения; предполагается "extern" с возвратом типа "int"
+[2/2] Linking C executable cmTC_1e175.exe
+FAILED: cmTC_1e175.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_1e175.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_1e175.dir\CurlTests.c.obj  /out:cmTC_1e175.exe /implib:cmTC_1e175.lib /pdb:cmTC_1e175.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_1e175.dir\CurlTests.c.obj /out:cmTC_1e175.exe /implib:cmTC_1e175.lib /pdb:cmTC_1e175.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_1e175.dir/intermediate.manifest CMakeFiles\cmTC_1e175.dir/manifest.res" failed (exit code 1120) with the following output:
+CurlTests.c.obj : error LNK2019: ссылка на неразрешенный внешний символ IoctlSocket в функции main.
+cmTC_1e175.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d74b2 && [1/2] Building C object CMakeFiles\cmTC_d74b2.dir\CurlTests.c.obj
+FAILED: CMakeFiles/cmTC_d74b2.dir/CurlTests.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DHAVE_IOCTL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_d74b2.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_d74b2.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(343): warning C4013: ioctl: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(343): error C2065: FIONBIO: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_IOCTL_SIOCGIFADDR failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_dbc12 && [1/2] Building C object CMakeFiles\cmTC_dbc12.dir\CurlTests.c.obj
+FAILED: CMakeFiles/cmTC_dbc12.dir/CurlTests.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DHAVE_IOCTL_SIOCGIFADDR  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_dbc12.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_dbc12.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(368): fatal error C1083: Не удается открыть файл включение: net/if.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d3703 && [1/2] Building C object CMakeFiles\cmTC_d3703.dir\CurlTests.c.obj
+FAILED: CMakeFiles/cmTC_d3703.dir/CurlTests.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_d3703.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_d3703.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(404): error C2065: SO_NONBLOCK: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5a79e && [1/2] Building C object CMakeFiles\cmTC_5a79e.dir\CurlTests.c.obj
+[2/2] Linking C executable cmTC_5a79e.exe
+FAILED: cmTC_5a79e.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_5a79e.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_5a79e.dir\CurlTests.c.obj  /out:cmTC_5a79e.exe /implib:cmTC_5a79e.lib /pdb:cmTC_5a79e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_5a79e.dir\CurlTests.c.obj /out:cmTC_5a79e.exe /implib:cmTC_5a79e.lib /pdb:cmTC_5a79e.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_5a79e.dir/intermediate.manifest CMakeFiles\cmTC_5a79e.dir/manifest.res" failed (exit code 1120) with the following output:
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+cmTC_5a79e.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_55ef4 && [1/2] Building C object CMakeFiles\cmTC_55ef4.dir\CurlTests.c.obj
+FAILED: CMakeFiles/cmTC_55ef4.dir/CurlTests.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DHAVE_FILE_OFFSET_BITS  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_55ef4.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_55ef4.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(218): warning C4293: <<: отрицательное или слишком большое смещение; поведение не определено
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(219): warning C4293: <<: отрицательное или слишком большое смещение; поведение не определено
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(220): error C2118: отрицательный индекс
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_70a8d && [1/2] Building C object CMakeFiles\cmTC_70a8d.dir\CurlTests.c.obj
+FAILED: CMakeFiles/cmTC_70a8d.dir/CurlTests.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DHAVE_VARIADIC_MACROS_GCC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_70a8d.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_70a8d.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(495): error C2010: ".": не требуется в списке параметров макроса
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(496): error C2010: ".": не требуется в списке параметров макроса
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_af993 && [1/2] Building C object CMakeFiles\cmTC_af993.dir\CurlTests.c.obj
+FAILED: CMakeFiles/cmTC_af993.dir/CurlTests.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DHAVE_GLIBC_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_af993.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_af993.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(420): warning C4013: strerror_r: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(420): error C2109: для индекса требуется массив или указатель
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(420): error C2198: check: слишком мало аргументов для вызова
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7b7e1 && [1/2] Building C object CMakeFiles\cmTC_7b7e1.dir\CurlTests.c.obj
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(435): warning C4013: strerror_r: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(435): warning C4244: функция: преобразование "int" в "float", возможна потеря данных
+[2/2] Linking C executable cmTC_7b7e1.exe
+FAILED: cmTC_7b7e1.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7b7e1.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7b7e1.dir\CurlTests.c.obj  /out:cmTC_7b7e1.exe /implib:cmTC_7b7e1.lib /pdb:cmTC_7b7e1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  ws2_32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7b7e1.dir\CurlTests.c.obj /out:cmTC_7b7e1.exe /implib:cmTC_7b7e1.lib /pdb:cmTC_7b7e1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_7b7e1.dir/intermediate.manifest CMakeFiles\cmTC_7b7e1.dir/manifest.res" failed (exit code 1120) with the following output:
+CurlTests.c.obj : error LNK2019: ссылка на неразрешенный внешний символ strerror_r в функции main.
+cmTC_7b7e1.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d7456 && [1/2] Building C object CMakeFiles\cmTC_d7456.dir\CurlTests.c.obj
+FAILED: CMakeFiles/cmTC_d7456.dir/CurlTests.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DHAVE_CLOCK_GETTIME_MONOTONIC  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_d7456.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_d7456.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(460): warning C4013: clock_gettime: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(460): error C2065: CLOCK_MONOTONIC: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d235e && [1/2] Building C object CMakeFiles\cmTC_d235e.dir\CurlTests.c.obj
+FAILED: CMakeFiles/cmTC_d235e.dir/CurlTests.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3 -DHAVE_BUILTIN_AVAILABLE  -DHAVE_WINDOWS_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_WINCRYPT_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_d235e.dir\CurlTests.c.obj /FdCMakeFiles\cmTC_d235e.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(467): warning C4013: __builtin_available: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(467): error C2065: macOS: необъявленный идентификатор
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(467): error C2143: синтаксическая ошибка: отсутствие ")" перед "константа"
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\CMake\CurlTests.c(467): error C2059: синтаксическая ошибка: )
+ninja: build stopped: subcommand failed.
+
+
+Performing C SOURCE FILE Test HAVE_MSG_NOSIGNAL failed with the following output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_6c227 && [1/2] Building C object CMakeFiles\cmTC_6c227.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_6c227.dir/src.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo -DHAVE_MSG_NOSIGNAL -IC:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\include /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_6c227.dir\src.c.obj /FdCMakeFiles\cmTC_6c227.dir\cmTC_6c227.pdb /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(8): error C2065: MSG_NOSIGNAL: необъявленный идентификатор
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+  int main(void) {
+    int flag = MSG_NOSIGNAL;
+    (void)flag;
+    return 0;
+  }
+Performing C SOURCE FILE Test HAVE_POLL_FINE failed with the following compile output:
+Change Dir: C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_39474 && [1/2] Building C object CMakeFiles\cmTC_39474.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_39474.dir/src.c.obj 
+C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1433~1.316\bin\Hostx64\x64\cl.exe  /nologo -DHAVE_POLL_FINE -IC:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\_deps\curl-src\include /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1    -D_WIN32_WINNT=0x0600 -D_WINSOCKAPI_= -DSECURITY_WIN32 /showIncludes /FoCMakeFiles\cmTC_39474.dir\src.c.obj /FdCMakeFiles\cmTC_39474.dir\ /FS -c C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\zepor\source\repos\ActivityWatcherCMake\out\build\x64-debug\CMakeFiles\CMakeTmp\src.c(3): fatal error C1083: Не удается открыть файл включение: sys/time.h: No such file or directory,
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+    #include <stdlib.h>
+    #include <sys/time.h>
+
+    #ifdef HAVE_SYS_POLL_H
+    #  include <sys/poll.h>
+    #elif  HAVE_POLL_H
+    #  include <poll.h>
+    #endif
+
+    int main(void)
+    {
+        if(0 != poll(0, 0, 10)) {
+          return 1; /* fail */
+        }
+        else {
+          /* detect the 10.12 poll() breakage */
+          struct timeval before, after;
+          int rc;
+          size_t us;
+
+          gettimeofday(&before, NULL);
+          rc = poll(NULL, 0, 500);
+          gettimeofday(&after, NULL);
+
+          us = (after.tv_sec - before.tv_sec) * 1000000 +
+            (after.tv_usec - before.tv_usec);
+
+          if(us < 400000) {
+            return 1;
+          }
+        }
+        return 0;
+    }

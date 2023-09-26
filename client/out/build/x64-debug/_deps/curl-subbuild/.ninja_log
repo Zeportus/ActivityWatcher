@@ -1,0 +1,21 @@
+# ninja log v5
+5932	6018	7174174912744931	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	3232e9c1e81ddf97
+2	82	7174174853371358	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	b4a5c6c2270ca99d
+5546	5621	7174174908775536	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	b71e6ede8633f219
+2	82	7174174853371358	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	b4a5c6c2270ca99d
+83	5546	7174174908007594	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	fe744891af6fb603
+83	5546	7174174908007594	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	fe744891af6fb603
+5546	5621	7174174908775536	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	b71e6ede8633f219
+5622	5684	7174174909403856	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	836f80e6ab461dac
+5813	5872	7174174911278843	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	698b7369f6139bb6
+5872	5932	7174174911877248	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	2539691b26a27f56
+5622	5684	7174174909403856	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	836f80e6ab461dac
+5684	5748	7174174910042153	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	7524a66ddf340af2
+5684	5748	7174174910042153	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	7524a66ddf340af2
+5748	5812	7174174910650525	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	d72bdc1540003944
+5748	5812	7174174910650525	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	d72bdc1540003944
+5813	5872	7174174911278843	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	698b7369f6139bb6
+5872	5932	7174174911877248	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	2539691b26a27f56
+5932	6018	7174174912744931	CMakeFiles/curl-populate-complete	3232e9c1e81ddf97
+5932	6018	7174174912744931	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	3232e9c1e81ddf97
+5932	6018	7174174912744931	C:/Users/zepor/source/repos/ActivityWatcherCMake/out/build/x64-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	3232e9c1e81ddf97
